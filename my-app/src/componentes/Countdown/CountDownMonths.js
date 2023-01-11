@@ -18,12 +18,15 @@ export const CountdownMonths = () => {
   return (
     <>
       <p>LAUNCHING SOON:</p>
-      <p className="counter">
-        <span>{timeBetween.days()} days </span>
+      <div className="counter">
+        <div>
+        <span>{timeBetween.days()}</span>
+        <p>days</p>
+        </div>
         <span>{timeBetween.hours()} hours </span>
         <span>{timeBetween.minutes()} min </span>
         <span>{timeBetween.seconds()}s </span>
-      </p>
+      </div>
     </>
   );
 };

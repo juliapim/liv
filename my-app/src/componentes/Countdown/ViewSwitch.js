@@ -8,13 +8,7 @@ export const ViewSwitch = () => {
     <div>
       {showMonths && <CountdownMonths />}
       {!showMonths && <Countdown />}
-      <button
-        onClick={() => {
-          setShowMonths(!showMonths);
-        }}
-      >
-        Switch timer
-      </button>
+
     </div>
   );
 };

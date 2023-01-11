@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
-}
-.App {
-  background-color: #AABF9B;
+  scrollbar-width: opx;
 }
 
 .App-logo {
@@ -13,7 +11,7 @@
 
 
 .App-container {
-  background-color: #AABF9B;
+  background-color:#D7E1D2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,9 +19,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 .App-container2 {
-  background-color: #808692;
+ background-color: #AABF9B;
+ background-image: url('./images/leaves.jpg');
+ background-position:center;
+ background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,8 +35,23 @@
   color: white;
 }
 
+.App-container3 {
+  background-color: #AABF9B;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
+ }
+
 .App-link {
   color: #61dafb;
+}
+
+.teacards{
+  height: 200px;
 }
 
 @keyframes App-logo-spin {
